@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: chocolate;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -19,14 +19,14 @@ body {
 }
 
 h1 {
-  color: white;
+  color: rgb(12, 12, 12);
   font-size: 3em;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .game-info {
-  color: white;
+  color: rgb(64, 221, 77);
   font-size: 1.5em;
   margin-bottom: 20px;
   min-height: 40px;
@@ -39,7 +39,7 @@ h1 {
   grid-template-rows: repeat(3, 120px);
   gap: 10px;
   margin: 0 auto 30px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(161, 42, 42, 0.1);
   padding: 10px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -66,12 +66,12 @@ h1 {
 }
 
 .cell.x {
-  color: #667eea;
+  color: #e5101b;
   animation: pop 0.3s ease;
 }
 
 .cell.o {
-  color: #764ba2;
+  color: #04f772;
   animation: pop 0.3s ease;
 }
 
@@ -103,8 +103,8 @@ h1 {
 }
 
 .reset-btn {
-  background: white;
-  color: #667eea;
+  background: #0cd247;
+  color: #fff;
   border: none;
   padding: 15px 40px;
   font-size: 1.2em;
